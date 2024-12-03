@@ -1,0 +1,111 @@
+h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 46px;  
+}
+.container1{
+    margin-top: 200px;
+    margin:5%;
+    padding: 0%;
+    
+}
+
+
+
+.container3{
+    margin-top: 200px;
+    margin:10%;
+    padding-top: 50px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+   
+    border-radius: 50%;
+}
+
+.container3>fa {
+   
+    font-size: 700px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+   
+    border-radius: 400px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+.fa-facebook {
+    background:white;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #131010;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #010202;
+    color: rgb(10, 1, 1);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #131a13;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #0f0707;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 70px;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 70px;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 70px;
+      margin-top: 0;
+    }
+  }
+  .content{
+    display: flex;
+  }
+
